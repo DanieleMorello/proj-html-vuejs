@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+header {
+  background-image: url("../img/hero-07-2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+
+  nav {
+
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+
+        a {
+          display: flex;
+          justify-content: flex-end;
+          color: $White;
+          text-decoration: none;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+
+  .my_container {
+    padding-top: 5rem;
+    padding-left: 7rem;
+
+    h1 {
+      color: $Saffron;
+    }
+
+    h2,
+    p,
+    button {
+      color: $White;
+    }
+
+    button {
+      background-color: $Black;
+      margin-right: 5px;
+    }
+  }
+
+
+}
