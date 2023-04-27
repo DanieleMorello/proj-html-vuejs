@@ -14,7 +14,7 @@ export default {
 
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
+        <li><a href="#about">About Me</a></li>
         <li><a href="#">Testimonials</a></li>
         <li><a href="#">My Blog</a></li>
         <li><a href="#">Meetups</a></li>

@@ -1,9 +1,12 @@
 <script>
+import AboutComponent from './AboutComponent.vue';
+
 export default {
-  name: 'Main'
+  name: "PageMain",
+  components: { AboutComponent }
 }
 </script>
 
-<template></template>
-
-<style lang="scss" scoped></style>
+<template>
+  <AboutComponent></AboutComponent>
+</template>

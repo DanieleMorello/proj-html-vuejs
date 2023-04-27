@@ -1,0 +1,28 @@
+@use './variables' as *;
+
+#about {
+  h2 {
+    color: $Saffron;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+}
+
+button {
+  background-color: $BlueLagoon;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  display: flex;
+  margin-bottom: 6rem;
+
+  a {
+    color: $White;
+    text-decoration: none;
+  }
+
+}
