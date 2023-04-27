@@ -1,16 +1,16 @@
 <script>
+import LogoComponent from './LogoComponent.vue';
 
 export default {
-  name: 'PageHeader'
+  name: "PageHeader",
+  components: { LogoComponent }
 }
 </script>
 
 <template>
   <header>
     <nav>
-      <div>
-        <img src="../assets/img/author-logo-round-small.png" alt="Logo">
-      </div>
+      <LogoComponent></LogoComponent>
 
       <ul>
         <li><a href="#">Home</a></li>

@@ -1,6 +1,9 @@
 <script>
+import LogoComponent from './LogoComponent.vue';
+
 export default {
-  name: 'PageFooter'
+  name: "PageFooter",
+  components: { LogoComponent }
 }
 </script>
 
@@ -10,10 +13,7 @@ export default {
       <div class="row row-cols-4">
 
         <div class="col">
-          <div class="logo">
-            <img src="../assets/img/author-logo-round-small.png" alt="Logo">
-          </div>
-          <!-- /.logo -->
+          <LogoComponent></LogoComponent>
         </div>
         <div class="col">
           <div class="about">
