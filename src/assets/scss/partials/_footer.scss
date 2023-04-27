@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+#site_footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../img/footer-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: $Pumice;
+  padding-top: 6rem;
+
+  #site_footer .about,
+  #site_footer .links,
+  #site_footer .contact {
+    flex-basis: 25%;
+  }
+  
+  #site_footer p {
+    order: 5;
+  }
+  h3,a {
+    color: $White;
+  }
+  
+  a {
+    padding-right: 1rem;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: auto;
+   
+    span {
+      color: $White;
+    }
+  }
+}

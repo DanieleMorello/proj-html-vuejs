@@ -1,5 +1,5 @@
 <script>
-import { library } from '@fortawesome/fontawesome-svg-core'
+
 export default {
   name: 'PageHeader'
 }
