@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+#testimonials {
+  background-color: $DawnPink;
+  padding: 3rem 0;
+}
+
+.top {
+  a {
+    padding: 0 2rem;
+  }
+}
+
+.bottom {
+  background-image: url(".././img/audible-app-2x-600x628.png"),
+    url(".././img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 25% 100%;
+  height: 700px;
+
+  div {
+    padding-top: 14rem;
+    padding-left: 39rem;
+    text-align: center;
+
+    h3 {
+      color: $White;
+    }
+
+    h4 {
+      color: $AnzacVibrant;
+    }
+
+    p {
+      color: $ScorpionMuted;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 @use '/node_modules/bootstrap/scss/bootstrap.scss';
 @use './partials/common' as *;
-@use './partials/variables' as *;
-@use './partials/header' as *;
+@use './partials/variables';
+@use './partials/header';
 @use './partials/footer';
 @use './partials/about';
+@use './partials/testimonials'
