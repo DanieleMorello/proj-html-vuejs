@@ -15,8 +15,9 @@ export default {
         <div class="col">
           <LogoComponent></LogoComponent>
         </div>
+
         <div class="col">
-          <div class="about">
+          <section class="about">
             <h3>About me</h3>
             <p>
               Vivamus suscipit tortor eget felis<br>
@@ -24,12 +25,12 @@ export default {
               malesuada feugiat. Vivamus suscipit tortor<br>
               eget felis porttitor volutpat.
             </p>
-          </div>
+          </section>
           <!-- /.about -->
         </div>
 
         <div class="col">
-          <div class="links">
+          <section class="links">
             <h3>Usefull links</h3>
             <ul class="list-unstyled">
               <li><a href="#"><font-awesome-icon :icon="['fas', 'angle-right']" /> Latest Books</a></li>
@@ -38,12 +39,12 @@ export default {
               <li><a href="#"><font-awesome-icon :icon="['fas', 'angle-right']" /> Business Enquiries</a></li>
               <li><a href="#"><font-awesome-icon :icon="['fas', 'angle-right']" /> Visit My Foundation</a></li>
             </ul>
-          </div>
+          </section>
           <!-- ./links -->
         </div>
 
         <div class="col">
-          <div class="contact">
+          <section class="contact">
             <h3>Contact info</h3>
             <address>
               63 E. Studebaker Street Bolingbrook, IL 60440<br>
@@ -80,18 +81,18 @@ export default {
                 </ul>
               </div>
             </address>
-          </div>
+          </section>
           <!-- /.contact -->
         </div>
-
+        <!-- /.col -->
       </div>
       <!-- /.row -->
-
     </div>
+    <!-- /.container -->
 
     <p>
-      &copy; Copyright 2012 - 2020 | Avada Theme by <span>ThemeFusion</span> | All Rights Reserved |
-      <span>Powered by WordPress</span>
+      &copy; Copyright 2012 - 2020 | Avada Theme by <span>ThemeFusion</span> | All Rights Reserved | <span>Powered by
+        WordPress</span>
     </p>
   </footer>
 </template>
