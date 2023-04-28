@@ -3,7 +3,48 @@ import LogoComponent from './LogoComponent.vue';
 
 export default {
   name: "PageHeader",
-  components: { LogoComponent }
+  components: { LogoComponent },
+  data() {
+    return {
+      menu: [
+        {
+          text: 'Home',
+          href: '#',
+          current_page: false
+        },
+        {
+          text: 'About Me',
+          href: '#about',
+          current_page: false
+        },
+        {
+          text: 'Testimonials',
+          href: '#testimonials',
+          current_page: false
+        },
+        {
+          text: 'My Blog',
+          href: '#articles',
+          current_page: false
+        },
+        {
+          text: 'Meetups',
+          href: '#author',
+          current_page: false
+        },
+        {
+          text: 'Shop',
+          href: '#testimonials',
+          current_page: false
+        },
+        {
+          text: 'Contact Me',
+          href: '#newsletter',
+          current_page: false
+        },
+      ]
+    }
+  },
 }
 </script>
 
@@ -13,13 +54,9 @@ export default {
       <LogoComponent></LogoComponent>
 
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">My Blog</a></li>
-        <li><a href="#">Meetups</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li v-for="item in menu">
+          <a :href="item.href">{{ item.text }}</a>
+        </li>
         <li><a href="#"><font-awesome-icon :icon="['fas', 'cart-shopping']" /></a></li>
       </ul>
     </nav>
@@ -35,6 +72,7 @@ export default {
         <p>-The New York Times</p>
         <button class="left border-0 rounded-1"><font-awesome-icon :icon="['fas', 'arrow-left']" /></button>
         <button class="right border-0 rounded-1"><font-awesome-icon :icon="['fas', 'arrow-right']" /></button>
+        <!-- Todo Aggiungere parte Ultimo libro e fix della posizione dei bottoni-->
       </section>
     </div>
 
